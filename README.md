@@ -1,4 +1,7 @@
 # Keras-MNIST
+MNIST is a famous dataset of handwritten digits. In this dataset there are 60,000 images of digits for training and 10,000 for test. Also we have used adam optimizer and cross-entropy function for measuring loss.
+
+We have used convolution layers with ReLU activation, dropout, and finally linear layer with softmax. With this configuration we are able to achieve 97.17% accuracy. 
 
 1. Import libraries
 ```Python
